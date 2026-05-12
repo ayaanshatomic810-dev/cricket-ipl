@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Matches Database - All Years</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">🏏 IPL Matches Database</h1>
+            <p class="subtitle">All IPL Matches (2008-2026)</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="filter-section">
+            <label for="seasonFilter" class="filter-label">Filter by Season:</label>
+            <select id="seasonFilter" class="season-dropdown">
+                <option value="">All Seasons</option>
+            </select>
+        </div>
+
+        <div id="matchesContainer" class="matches-container"></div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 IPL Matches Database. All data is for reference purposes.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
